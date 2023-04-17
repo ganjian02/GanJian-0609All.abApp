@@ -106,9 +106,16 @@ namespace LabAss3
 
         private void entnCustomerToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
+
             Form1 obj = new Form1();
             obj.MDIParent = this;
             obj.Show();
+        }
+
+        private void MDIParent_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
